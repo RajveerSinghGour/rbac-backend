@@ -50,7 +50,8 @@ cd rbac-system
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   npm install express mongoose bcrypt jsonwebtoken dotenv cors
+   npm install --save-dev nodemon
    ```
 3. Create a `.env` file in the `backend` directory and add the following:
    ```env
@@ -73,7 +74,7 @@ cd rbac-system
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   npm install axios react-router-dom
    ```
 3. Start the React development server:
    ```bash
@@ -113,12 +114,3 @@ repository-name/
 │
 └── README.md
 ```
-
----
-
-## Contribution
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix.
-3. Commit your changes and push the branch.
-4. Open a pull request.
