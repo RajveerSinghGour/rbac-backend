@@ -86,11 +86,21 @@ cd rbac-system
 
 ## Usage
 1. Open the application in your browser at `http://localhost:3000`.
-2. Register a new user, or log in with existing credentials.
+2. Register a new user or log in with existing credentials.
 3. Access the respective dashboard based on your assigned role:
    - Admin Dashboard: `/admin`
    - Moderator Dashboard: `/moderator`
    - User Dashboard: `/user`
+
+---
+
+## Known Issue:
+- **Login Glitch**: When logging in for the first time and clicking on the "Dashboard" option in the navbar, the app will redirect you to the login page instead of the dashboard. However, after refreshing the page, it works properly and redirects to the correct dashboard based on the user's role. This issue is under investigation.
+  
+---
+
+## Dashboards Content:
+Please note that the dashboards (Admin, Moderator, User) do not contain real data and are just placeholders to demonstrate the role-based routing functionality. The actual dashboard content will need to be implemented based on your application’s requirements.
 
 ---
 
