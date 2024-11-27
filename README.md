@@ -39,8 +39,8 @@ This is a Role-Based Access Control (RBAC) system built with **React** on the fr
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/RajveerSinghGour/rbac-system.git
-cd rbac-system
+git clone https://github.com/RajveerSinghGour/rbac-backend.git
+cd rbac-backend
 ```
 
 #### 2. Backend Setup
